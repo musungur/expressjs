@@ -1,0 +1,19 @@
+{
+  "name": "expressjavascript",
+  "version": "1.0.0",
+  "description": "running JavaScripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musungur/expressjs.git"
+  },
+  "author": "Robert Musungu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musungur/expressjs/issues"
+  },
+  "homepage": "https://github.com/musungur/expressjs#readme"
+}
