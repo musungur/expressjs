@@ -1,4 +1,5 @@
 
+const { request, response } = require("express")
 const express = require("express")
 
 const app = express()
@@ -22,4 +23,12 @@ function payload(){
 	console.log(msg, name)
 }
 
+function hellW(){
+	return "Hellow World!!"
+}
+
 console.log(server(),payload())
+
+app.get("/", (request, response)=>{
+	response.send(hellow())
+})
