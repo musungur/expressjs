@@ -22,4 +22,4 @@ function payload(){
 	console.log(msg, name)
 }
 
-// console.log(server(),payload())
+console.log(server(),payload())
